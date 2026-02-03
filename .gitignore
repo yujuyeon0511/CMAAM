@@ -1,0 +1,79 @@
+# Model checkpoints and weights (too large for GitHub)
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+Qwen2-VL-7B-Instruct/
+Qwen2-7B-Instruct/
+llava-onevision-qwen2-7b-si/
+aligned_merged_model/
+checkpoints/
+output/
+
+# Data files (too large)
+data/
+*.jsonl
+*.json
+!merge/cmaam/*.json
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Images (optional - keep small ones)
+*.png
+*.jpg
+*.jpeg
+!assets/*.png
+!assets/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Eval results
+eval_results/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
